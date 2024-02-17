@@ -1,4 +1,4 @@
-@import "scss/variables.scss";
+@import "variables";
 
 @mixin gradient-background($gradientStartColor, $gradientEndColor) {
   background: linear-gradient(
