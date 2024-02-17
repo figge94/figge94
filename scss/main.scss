@@ -1,0 +1,32 @@
+@import "variables";
+
+main {
+  display: grid;
+  grid-template-areas:
+    "offs offs"
+    "sale refs";
+  gap: 1rem;
+  margin: 6rem;
+
+  section {
+    padding: 20px;
+    .fa-solid {
+      color: $whiteColor;
+      float: right;
+      font-size: 5rem;
+    }
+  }
+  .offers {
+    grid-area: offs;
+    background-color: #9797f7;
+    width: 100%;
+  }
+  .sales {
+    grid-area: sale;
+    background-color: #a8a8ba;
+  }
+  .references {
+    grid-area: refs;
+    background-color: #6867ab;
+  }
+}

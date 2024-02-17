@@ -1,0 +1,33 @@
+/* Variables */
+/* Assorted */
+/* Colors */
+/* Textstorlekar */
+/* Heading-sizes */
+/* Spacing */
+main {
+  display: grid;
+  grid-template-areas: "offs offs" "sale refs";
+  gap: 1rem;
+  margin: 6rem;
+}
+main section {
+  padding: 20px;
+}
+main section .fa-solid {
+  color: #fff;
+  float: right;
+  font-size: 5rem;
+}
+main .offers {
+  grid-area: offs;
+  background-color: #9797f7;
+  width: 100%;
+}
+main .sales {
+  grid-area: sale;
+  background-color: #a8a8ba;
+}
+main .references {
+  grid-area: refs;
+  background-color: #6867ab;
+}/*# sourceMappingURL=main.css.map */

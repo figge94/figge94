@@ -1,0 +1,25 @@
+.wrapper {
+  font-family: $primary-font;
+  font-size: $normalText;
+}
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  font-family: $header-font;
+}
+
+h2,
+h3 {
+  padding-top: $smallHeading;
+}
+h1 {
+  font-size: $bigHeading;
+}
+h2 {
+  font-size: $normalHeading;
+}
+
+h3 {
+  font-size: $smallHeading;
+}

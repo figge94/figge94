@@ -1,0 +1,12 @@
+@mixin gradient-background($gradientStartColor, $gradientEndColor) {
+  background: linear-gradient(
+    to bottom,
+    $gradientStartColor,
+    $gradientEndColor
+  );
+}
+
+.hero {
+  width: 100%;
+  @include gradient-background($gradientStartColor, $gradientEndColor);
+}

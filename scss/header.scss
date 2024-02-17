@@ -1,0 +1,45 @@
+/* Header-kod */
+
+header {
+  background-color: $whiteColor;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  img {
+    width: 120px;
+    height: 80px;
+  }
+
+  nav {
+    display: inline-block;
+
+    a {
+      color: $linkColor;
+      text-decoration: none;
+      gap: $bigSpacing;
+
+      .item:hover {
+        background-color: $buttonColorHover;
+        color: aqua;
+      }
+    }
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        a {
+          padding: $smallSpacing;
+        }
+        a:hover {
+          background-color: $linkColor;
+          color: $whiteColor;
+        }
+      }
+    }
+  }
+}

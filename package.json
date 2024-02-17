@@ -1,0 +1,18 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "scss",
+  "main": "scss/style",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victoria fingal",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.71.0",
+    "sass-loader": "^14.1.0",
+    "webpack": "^5.90.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

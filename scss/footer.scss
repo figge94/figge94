@@ -1,0 +1,43 @@
+@import "variables";
+footer {
+  background-color: $bgColorFooter;
+  color: $txtColorFooter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  height: $footer-height;
+  .wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "smap comm comp soci";
+    gap: 15rem;
+    padding: $smallSpacing;
+    .item {
+      list-style-type: none;
+    }
+  }
+  h4 {
+    font-size: $smallHeading;
+    color: $headingSmallColor;
+    text-transform: uppercase;
+  }
+  .sitemap {
+    grid-area: smap;
+  }
+  .company {
+    grid-area: comp;
+  }
+  .community {
+    grid-area: comm;
+  }
+  .social {
+    grid-area: soci;
+    .fa-brands {
+      color: #fff;
+    }
+  }
+}

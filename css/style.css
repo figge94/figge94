@@ -1,0 +1,128 @@
+/* Variables */
+/* Assorted */
+/* Colors */
+/* Textstorlekar */
+/* Heading-sizes */
+/* Spacing */
+.hero {
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(193, 218, 247), rgb(59, 118, 194));
+}
+
+.wrapper {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  font-family: "Playpen Sans", sans-serif;
+}
+
+h2,
+h3 {
+  padding-top: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+/* Header-kod */
+header {
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+header img {
+  width: 120px;
+  height: 80px;
+}
+header nav {
+  display: inline-block;
+}
+header nav a {
+  color: #8ab9e9;
+  text-decoration: none;
+  gap: 3rem;
+}
+header nav a .item:hover {
+  background-color: #173782;
+  color: aqua;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  padding: 1rem;
+}
+header nav ul li a:hover {
+  background-color: #8ab9e9;
+  color: #fff;
+}
+
+/* Variables */
+/* Assorted */
+/* Colors */
+/* Textstorlekar */
+/* Heading-sizes */
+/* Spacing */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+/* Assorted */
+/* Colors */
+/* Textstorlekar */
+/* Heading-sizes */
+/* Spacing */
+main {
+  display: grid;
+  grid-template-areas: "offs offs" "sale refs";
+  gap: 1rem;
+  margin: 6rem;
+}
+main section {
+  padding: 20px;
+}
+main section .fa-solid {
+  color: #fff;
+  float: right;
+  font-size: 5rem;
+}
+main .offers {
+  grid-area: offs;
+  background-color: #9797f7;
+  width: 100%;
+}
+main .sales {
+  grid-area: sale;
+  background-color: #a8a8ba;
+}
+main .references {
+  grid-area: refs;
+  background-color: #6867ab;
+}
+
+/*# sourceMappingURL=style.css.map */
