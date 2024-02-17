@@ -1,5 +1,23 @@
 @import "variables";
 
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 8rem;
+  .basic,
+  .premium,
+  .expert {
+    border: 3px solid #5f9dea;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #c1daf7;
+    .price {
+      background-color: $backgroundColor;
+      text-align: center;
+    }
+  }
+}
+
 main {
   display: grid;
   grid-template-areas:
