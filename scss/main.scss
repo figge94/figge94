@@ -1,5 +1,47 @@
 @import "variables";
 
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+  background-color: $gradientStartColor, $gradientEndColor;
+  height: $heroHeight;
+
+  .callout {
+    display: block;
+    font-family: $primary-font;
+    text-align: center;
+  }
+
+  button {
+    background-color: $btnColor;
+    border: 2px solid #000;
+    color: $textColor;
+    cursor: pointer;
+    font-family: $primary-font;
+    font-size: 1rem;
+    text-transform: uppercase;
+    height: 43px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+
+    &:hover {
+      color: #171e29;
+    }
+
+    &:focus {
+      color: #171e29;
+    }
+
+    &:active {
+      color: #e05555;
+    }
+  }
+}
+
 .cards {
   display: flex;
   justify-content: space-around;
